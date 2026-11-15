@@ -1,0 +1,62 @@
+[
+  {
+    "precision": 8,
+    "trials": 20,
+    "actual": 25000,
+    "mean_signed_error_pct": 3.59889706242362,
+    "mean_absolute_error_pct": 4.827935918017202,
+    "std_signed_error_pct": 5.087017441624576,
+    "rmse_pct": 6.126656444974239,
+    "max_absolute_error_pct": 14.712278199528125,
+    "register_bytes": 256,
+    "theoretical_rse_pct": 6.5
+  },
+  {
+    "precision": 10,
+    "trials": 20,
+    "actual": 25000,
+    "mean_signed_error_pct": 1.9528920112161423,
+    "mean_absolute_error_pct": 2.5501229103181196,
+    "std_signed_error_pct": 2.462218202263667,
+    "rmse_pct": 3.094055552063089,
+    "max_absolute_error_pct": 6.398632667904021,
+    "register_bytes": 1024,
+    "theoretical_rse_pct": 3.25
+  },
+  {
+    "precision": 12,
+    "trials": 20,
+    "actual": 25000,
+    "mean_signed_error_pct": 0.40807858207534153,
+    "mean_absolute_error_pct": 1.344447523311639,
+    "std_signed_error_pct": 1.680662010777205,
+    "rmse_pct": 1.6881711062255556,
+    "max_absolute_error_pct": 3.6434709551705455,
+    "register_bytes": 4096,
+    "theoretical_rse_pct": 1.625
+  },
+  {
+    "precision": 14,
+    "trials": 20,
+    "actual": 25000,
+    "mean_signed_error_pct": 0.107697491936772,
+    "mean_absolute_error_pct": 0.5982826193101639,
+    "std_signed_error_pct": 0.762137936216587,
+    "rmse_pct": 0.7506066026214568,
+    "max_absolute_error_pct": 1.7217453194169212,
+    "register_bytes": 16384,
+    "theoretical_rse_pct": 0.8125
+  },
+  {
+    "precision": 16,
+    "trials": 20,
+    "actual": 25000,
+    "mean_signed_error_pct": -0.010027588721654317,
+    "mean_absolute_error_pct": 0.19100185126428695,
+    "std_signed_error_pct": 0.24089990045155116,
+    "rmse_pct": 0.23501420482868593,
+    "max_absolute_error_pct": 0.5084771151211462,
+    "register_bytes": 65536,
+    "theoretical_rse_pct": 0.40625
+  }
+]

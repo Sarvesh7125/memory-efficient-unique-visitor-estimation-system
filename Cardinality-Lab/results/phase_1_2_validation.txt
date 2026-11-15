@@ -1,0 +1,1 @@
+Data pipeline: 4 tests passed. All four CSV row counts validated using chunked reader. Real download blocked by DNS; no real-source execution claimed.

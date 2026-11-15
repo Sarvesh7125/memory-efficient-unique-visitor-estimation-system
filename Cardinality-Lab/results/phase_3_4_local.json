@@ -1,0 +1,58 @@
+[
+  {
+    "dataset": "events_1000.csv",
+    "identifier_kind": "distinct supplied IDs",
+    "events": 1000,
+    "precision": 12,
+    "exact_count": 250,
+    "hll_estimate": 251.5697410102375,
+    "absolute_error_pct": 0.6278964040949973,
+    "theoretical_rse_pct": 1.625,
+    "exact_retained_bytes": 22900,
+    "hll_retained_bytes": 4561,
+    "hll_register_bytes": 4096,
+    "memory_ratio": 5.020828765621574
+  },
+  {
+    "dataset": "events_10000.csv",
+    "identifier_kind": "distinct supplied IDs",
+    "events": 10000,
+    "precision": 12,
+    "exact_count": 2500,
+    "hll_estimate": 2444.742306949386,
+    "absolute_error_pct": 2.2103077220245537,
+    "theoretical_rse_pct": 1.625,
+    "exact_retained_bytes": 275522,
+    "hll_retained_bytes": 4553,
+    "hll_register_bytes": 4096,
+    "memory_ratio": 60.51438611904239
+  },
+  {
+    "dataset": "events_100000.csv",
+    "identifier_kind": "distinct supplied IDs",
+    "events": 100000,
+    "precision": 12,
+    "exact_count": 25000,
+    "hll_estimate": 25063.22076464999,
+    "absolute_error_pct": 0.2528830585999531,
+    "theoretical_rse_pct": 1.625,
+    "exact_retained_bytes": 3561594,
+    "hll_retained_bytes": 4545,
+    "hll_register_bytes": 4096,
+    "memory_ratio": 783.6290429042904
+  },
+  {
+    "dataset": "events_1000000.csv",
+    "identifier_kind": "distinct supplied IDs",
+    "events": 1000000,
+    "precision": 12,
+    "exact_count": 250000,
+    "hll_estimate": 245262.781698572,
+    "absolute_error_pct": 1.894887320571195,
+    "theoretical_rse_pct": 1.625,
+    "exact_retained_bytes": 23278042,
+    "hll_retained_bytes": 4537,
+    "hll_register_bytes": 4096,
+    "memory_ratio": 5130.712364998898
+  }
+]

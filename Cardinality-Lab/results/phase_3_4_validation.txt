@@ -1,0 +1,3 @@
+28 passed (4 existing pipeline tests + 24 algorithm test cases).
+All four synthetic CSV files processed successfully.
+UCI CSV unavailable in build environment; local verification required.

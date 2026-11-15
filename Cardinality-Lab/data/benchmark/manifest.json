@@ -1,0 +1,38 @@
+[
+  {
+    "file": "events_1000.csv",
+    "events": 1000,
+    "distinct_ids": 250,
+    "seed": 42,
+    "target_ratio": 0.25,
+    "bytes": 46003,
+    "source": "synthetic"
+  },
+  {
+    "file": "events_10000.csv",
+    "events": 10000,
+    "distinct_ids": 2500,
+    "seed": 42,
+    "target_ratio": 0.25,
+    "bytes": 468751,
+    "source": "synthetic"
+  },
+  {
+    "file": "events_100000.csv",
+    "events": 100000,
+    "distinct_ids": 25000,
+    "seed": 42,
+    "target_ratio": 0.25,
+    "bytes": 4789266,
+    "source": "synthetic"
+  },
+  {
+    "file": "events_1000000.csv",
+    "events": 1000000,
+    "distinct_ids": 250000,
+    "seed": 42,
+    "target_ratio": 0.25,
+    "bytes": 48896646,
+    "source": "synthetic"
+  }
+]

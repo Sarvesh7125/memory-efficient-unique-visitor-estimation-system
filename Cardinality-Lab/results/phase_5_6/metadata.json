@@ -1,0 +1,11 @@
+{
+  "python": "3.11.0",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "repeats": 5,
+  "precision_trials": 20,
+  "seed": 42,
+  "uci_included": true,
+  "timing_scope": "algorithm construction, insertion and final estimate; excludes CSV loading and memory instrumentation",
+  "peak_scope": "tracemalloc Python allocations during algorithm run; input strings preloaded and excluded; not process RSS",
+  "retained_scope": "estimated retained object size including references to visitor strings for set"
+}

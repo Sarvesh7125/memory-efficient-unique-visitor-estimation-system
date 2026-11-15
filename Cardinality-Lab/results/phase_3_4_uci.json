@@ -1,0 +1,16 @@
+[
+  {
+    "dataset": "uci_events.csv",
+    "identifier_kind": "session ID (not person)",
+    "events": 165474,
+    "precision": 12,
+    "exact_count": 24026,
+    "hll_estimate": 24034.177659333956,
+    "absolute_error_pct": 0.034036707458405056,
+    "theoretical_rse_pct": 1.625,
+    "exact_retained_bytes": 3384018,
+    "hll_retained_bytes": 4561,
+    "hll_register_bytes": 4096,
+    "memory_ratio": 741.9465029598772
+  }
+]

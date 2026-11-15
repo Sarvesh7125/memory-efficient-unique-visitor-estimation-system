@@ -1,0 +1,172 @@
+[
+  {
+    "dataset": "events_1000",
+    "identifier_kind": "distinct supplied IDs",
+    "events": 1000,
+    "precision": 12,
+    "exact_count": 250,
+    "hll_estimate": 251.5697410102375,
+    "signed_error_pct": 0.6278964040949973,
+    "absolute_error_pct": 0.6278964040949973,
+    "theoretical_rse_pct": 1.625,
+    "exact_median_ms": 0.08540000999346375,
+    "hll_median_ms": 0.9194999583996832,
+    "exact_times_ms": [
+      0.12149999383836985,
+      0.08540000999346375,
+      0.07750000804662704,
+      0.07619999814778566,
+      0.11720001930370927
+    ],
+    "hll_times_ms": [
+      0.9194999583996832,
+      0.8628999930806458,
+      1.2621000059880316,
+      0.8944000001065433,
+      1.0986999841406941
+    ],
+    "exact_peak_bytes": 10784,
+    "hll_peak_bytes": 5354,
+    "exact_retained_bytes": 22860,
+    "hll_retained_bytes": 4521,
+    "hll_register_bytes": 4096,
+    "memory_ratio": 5.0564034505640345,
+    "memory_savings_pct": 80.22309711286088
+  },
+  {
+    "dataset": "events_10000",
+    "identifier_kind": "distinct supplied IDs",
+    "events": 10000,
+    "precision": 12,
+    "exact_count": 2500,
+    "hll_estimate": 2444.742306949386,
+    "signed_error_pct": -2.210307722024554,
+    "absolute_error_pct": 2.210307722024554,
+    "theoretical_rse_pct": 1.625,
+    "exact_median_ms": 0.680199998896569,
+    "hll_median_ms": 8.090300019830465,
+    "exact_times_ms": [
+      0.6634000455960631,
+      0.6656000041402876,
+      1.1461999965831637,
+      0.8508000173605978,
+      0.680199998896569
+    ],
+    "hll_times_ms": [
+      8.284199982881546,
+      7.317099953070283,
+      7.176400045864284,
+      8.159600023645908,
+      8.090300019830465
+    ],
+    "exact_peak_bytes": 164328,
+    "hll_peak_bytes": 5291,
+    "exact_retained_bytes": 275442,
+    "hll_retained_bytes": 4465,
+    "hll_register_bytes": 4096,
+    "memory_ratio": 61.68913773796193,
+    "memory_savings_pct": 98.37896907515919
+  },
+  {
+    "dataset": "events_100000",
+    "identifier_kind": "distinct supplied IDs",
+    "events": 100000,
+    "precision": 12,
+    "exact_count": 25000,
+    "hll_estimate": 25063.22076464999,
+    "signed_error_pct": 0.2528830585999531,
+    "absolute_error_pct": 0.2528830585999531,
+    "theoretical_rse_pct": 1.625,
+    "exact_median_ms": 10.413800016976893,
+    "hll_median_ms": 76.67159999255091,
+    "exact_times_ms": [
+      13.542299973778427,
+      10.413800016976893,
+      12.671699980273843,
+      9.220400010235608,
+      9.947000013198704
+    ],
+    "hll_times_ms": [
+      78.77379999263212,
+      70.50789997447282,
+      66.87290000263602,
+      84.96200002264231,
+      76.67159999255091
+    ],
+    "exact_peak_bytes": 2621872,
+    "hll_peak_bytes": 5228,
+    "exact_retained_bytes": 3561474,
+    "hll_retained_bytes": 4409,
+    "hll_register_bytes": 4096,
+    "memory_ratio": 807.7736448174189,
+    "memory_savings_pct": 99.87620294293879
+  },
+  {
+    "dataset": "events_1000000",
+    "identifier_kind": "distinct supplied IDs",
+    "events": 1000000,
+    "precision": 12,
+    "exact_count": 250000,
+    "hll_estimate": 245262.781698572,
+    "signed_error_pct": -1.894887320571195,
+    "absolute_error_pct": 1.894887320571195,
+    "theoretical_rse_pct": 1.625,
+    "exact_median_ms": 229.89590000361204,
+    "hll_median_ms": 816.4805000415072,
+    "exact_times_ms": [
+      269.8699000175111,
+      263.0269000073895,
+      224.81829999014735,
+      206.3946999842301,
+      229.89590000361204
+    ],
+    "hll_times_ms": [
+      779.5719000278041,
+      679.5541999745183,
+      816.4805000415072,
+      823.5891000367701,
+      857.0945999817923
+    ],
+    "exact_peak_bytes": 12583288,
+    "hll_peak_bytes": 5173,
+    "exact_retained_bytes": 23277882,
+    "hll_retained_bytes": 4361,
+    "hll_register_bytes": 4096,
+    "memory_ratio": 5337.739509286861,
+    "memory_savings_pct": 99.98126547767534
+  },
+  {
+    "dataset": "uci_events",
+    "identifier_kind": "session ID (not person)",
+    "events": 165474,
+    "precision": 12,
+    "exact_count": 24026,
+    "hll_estimate": 24034.177659333956,
+    "signed_error_pct": 0.034036707458405056,
+    "absolute_error_pct": 0.034036707458405056,
+    "theoretical_rse_pct": 1.625,
+    "exact_median_ms": 11.222400004044175,
+    "hll_median_ms": 108.3935999777168,
+    "exact_times_ms": [
+      12.478800024837255,
+      11.65569998556748,
+      11.09409995842725,
+      10.920300032012165,
+      11.222400004044175
+    ],
+    "hll_times_ms": [
+      106.29359999438748,
+      106.43419995903969,
+      108.3935999777168,
+      109.15430000750348,
+      110.20210001152009
+    ],
+    "exact_peak_bytes": 2621784,
+    "hll_peak_bytes": 5170,
+    "exact_retained_bytes": 3383802,
+    "hll_retained_bytes": 4361,
+    "hll_register_bytes": 4096,
+    "memory_ratio": 775.9234120614537,
+    "memory_savings_pct": 99.87112130083261
+  }
+]
